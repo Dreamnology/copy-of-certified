@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "dreamnology"
+location: "us-south1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "Dreamnology"
+      cloudSql:
+        instanceId: "dreamnology-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

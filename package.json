@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "@google/genai": "latest",
+    "@tailwindcss/typography": "^0.5.10",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.1",
-    "@google/genai": "latest",
-    "@tailwindcss/typography": "^0.5.10"
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
